@@ -1,0 +1,38 @@
+My Assignment is the abusive content detector.
+
+Brief of what the project does
+	1-Reads and displays your file
+	2-Scan your file for bad words
+	3-Enter a Sentence/Paragraph and scan it for bad words
+	4-Write a word to the bad words file
+	5-Censor bad words
+
+
+Rules it must follow: 
+1) Check for English words only
+2) Commonly used curse words make the text highly abusive
+3) The result is graded on a scale against the percentage of how bad the text is
+
+The algorithm takes the size of the bad word file, and then the size is multiplied by how many times there is a bad word occurred and is then divided by 100 to get the percentage. 
+
+This is how it determines how bad the file is and it evaluates it based on this percentage. 
+
+The program uses ArrayLists.
+The first array list is used to store the bad words in it.
+It is splitted by a new line.
+So each word has its own index value.
+
+The user file is also placed in an array list.
+And it is splitted by a space.
+So also each word has its own index value
+
+The algorithm is tested by using an enhanced for loop and it checks if the user word exits in the bad word array. ( using .contains method ) if it does a counter is incremented.
+
+This counter is then used to get the percentage and then the percentage evaluates how badly abusive the content is.
+
+This is the program in a nut shell.
+
+Reference link to where I got the list of bad words: http://www.hyperhero.com/en/insults.htm
+
+( NOTE: Some of the words included are very in appropriate ) 
+Link for the video of the program being tested: 
